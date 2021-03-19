@@ -1,0 +1,74 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Css/style.css">
+        <title>Projeto Banco</title>
+    </head>
+    
+    <body>
+        <header class="TITULO">
+            <img id="img" src="img/Logo.png">
+            <h1>Controle Financeiro</h1>
+            <div>
+               <button type="submit" id="botão1">Dashboard</button>
+               <button type="submit" id="botão2">Resumo</button>
+               <button type="submit" id="botão3">Configurações</button>
+               <br>
+            </div>
+       </header>
+       
+       <div class="margindiv">
+         <h2 class="SUBTITULO">Nova Transação</h2>
+         <div class="Tipo de transação">
+             
+             <label>Tipo de Transação</label>
+             <br>
+             <select name="transação" id="transação">
+                 <option value="Compra">Compra</option>
+                 <option value="Venda">Venda</option>
+                </select>
+            </div>
+            <div class="Nome da Mercadoria">
+                <label>Nome da Mercadoria</label>
+                <br>
+                <input id="nomemercadoria" type="text">
+                <br>
+            </div>
+            <div class="Valor">
+                <label >Valor</label>
+                <br>
+                <input id="valor" type="number" placeholder="R$ 0.00">
+                <br>
+            </div>
+            <div>
+                <button id="addtransação" type="submit">Adicionar Transação</button>
+                <br>
+            </div>
+        </div>  
+             <div class="Subtitulo2">
+                <div>
+                    <h2>Extrato de Transações</h2>
+                </div>
+            
+        <div class="Tabela">
+                <table>
+                    <tr>
+                        <th>Mercadoria</th>
+                    <th>Valor</th>
+                    <br>
+                </tr>
+                <tr>
+                     <td>Nenhuma transação Cadastrada</td>
+                     <td>R$ 0.0</td>
+                </tr>
+        </div>
+        
+            </table>
+        </div>
+    </body>
+
+</html>
