@@ -1,0 +1,83 @@
+.TITULO {
+   background-color: #ccc;
+   display: flex;
+}
+
+#botão1 {
+    background: white;
+    border: outset;
+}
+
+#botão2 {
+    background: white;
+    border: outset;
+}
+#botão3 {
+    background: white;
+    border: outset;
+}
+.margindiv {
+    margin: 30;
+    border: 3px solid;
+    float: left;
+    width: 350;
+    height: 300;
+    border-radius: 4px;
+    padding: 10px;
+}
+#transação {
+    width: 333px;
+    height: 30px;
+}
+#nomemercadoria {
+    width: 333px;
+    height: 30px;
+}
+#valor {
+    width: 333px;
+    height: 30px;
+}
+#addtransação {
+    color: #ffffff;
+    background-color: #333333;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 40px;
+    border: 0;
+    width: 341px;
+    height: 29px;
+    justify-content: center;
+    align-items: center;
+}
+.subtitulo2 {
+    margin: 200;
+    float: right;
+    margin-top: 35;
+}
+#img {
+    margin: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
